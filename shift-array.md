@@ -9,5 +9,7 @@ Take an array and insert a value in the middle of the array.
 
  - [x] Take a picture of Whiteboard
  - [x] make the ReadME
- - [x] make the .js file
-  array picture](./asset/shift-array.jpg)
+ - [x] make test file .js file
+ - [x] make .js file
+ - [ ] pass tests
+ 
