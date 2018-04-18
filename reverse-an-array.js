@@ -5,4 +5,5 @@ function reverseArray(oldArray) {
   for (i=oldArray.length; i > 0; i--) {
     newArray.push(i);
   }
+  return newArray;
 }

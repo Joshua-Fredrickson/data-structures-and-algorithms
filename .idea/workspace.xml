@@ -23,12 +23,14 @@
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="92">
                 <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
+
       <file leaf-file-name="binary-search.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/__test__/binary-search.test.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,8 +65,10 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.editorconfig" />
-        <option value="$PROJECT_DIR$/reverse-an-array.js" />
         <option value="$PROJECT_DIR$/reverse-an-array.md" />
+        <option value="$PROJECT_DIR$/shift-array.js" />
+        <option value="$PROJECT_DIR$/reverse-an-array.js" />
+        <option value="$PROJECT_DIR$/__test__/shift-array.test.js" />
         <option value="$PROJECT_DIR$/shift-array.md" />
         <option value="$PROJECT_DIR$/binary-search.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -180,8 +184,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -209,7 +213,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/shift-array.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
           <first_editor>
             <caret column="12" selection-start-column="12" selection-end-column="12" />
           </first_editor>
@@ -308,6 +311,7 @@
         </state>
       </provider>
     </entry>
+
     <entry file="file://$PROJECT_DIR$/__test__/shift-array.test.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
