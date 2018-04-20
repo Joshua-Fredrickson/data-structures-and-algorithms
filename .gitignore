@@ -163,6 +163,8 @@ $RECYCLE.BIN/
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 
+### Webstorm ###
+.idea
 
 # End of https://www.gitignore.io/api/node,macos,linux,windows
 © 2018 GitHub, Inc.
