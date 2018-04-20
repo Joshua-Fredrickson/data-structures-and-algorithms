@@ -6,13 +6,13 @@ shiftArray.shifting = (inputArray, inputValue) => {
   const newArray = [];
   const targetIndexValue = Math.ceil(inputArray.length / 2);
 
-  for (i = 0; i < targetIndexValue; i++) {
+  for (let i = 0; i < targetIndexValue; i++) {
     newArray.push(i);
   };
 
   newArray.push(inputValue);
 
-  for (j = (targetIndexValue + 1); j < inputArray.length; j++) {
+  for (let j = (targetIndexValue + 1); j < inputArray.length; j++) {
     newArray.push(j)
   };
 
