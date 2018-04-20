@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32ff7beb-8dfa-4e3f-8954-16a0de006bb3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__test__/largest-product.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__test__/largest-product.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/largest-product.js" beforeDir="false" afterPath="$PROJECT_DIR$/largest-product.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,20 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="largest-product.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="largest-product.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/largest-product.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="483">
+              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="largest-product.test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="largest-product.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/__test__/largest-product.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="322">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -69,8 +69,8 @@
         <option value="$PROJECT_DIR$/reverse-an-array.md" />
         <option value="$PROJECT_DIR$/largest-product.md" />
         <option value="$PROJECT_DIR$/../../bitmap/04-bitmap-transformer/.babelrc" />
-        <option value="$PROJECT_DIR$/largest-product.js" />
         <option value="$PROJECT_DIR$/__test__/largest-product.test.js" />
+        <option value="$PROJECT_DIR$/largest-product.js" />
       </list>
     </option>
   </component>
@@ -158,12 +158,12 @@
       <workItem from="1524003629126" duration="3183000" />
       <workItem from="1524020094092" duration="2744000" />
       <workItem from="1524176823182" duration="4095000" />
-      <workItem from="1524189611172" duration="2003000" />
+      <workItem from="1524189611172" duration="4346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13728000" />
+    <option name="totallyTimeSpent" value="16071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="23" width="1173" height="777" extended-state="0" />
@@ -568,13 +568,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.es6">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/largest-product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shift-array.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -584,15 +577,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/__test__/shift-array.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="48" />
+        <state relative-caret-position="92">
+          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/__test__/largest-product.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="322">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/largest-product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
         </state>
       </provider>
     </entry>
