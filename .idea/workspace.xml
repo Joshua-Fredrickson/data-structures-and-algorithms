@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32ff7beb-8dfa-4e3f-8954-16a0de006bb3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/__test__/largest-product.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__test__/largest-product.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/largest-product.js" beforeDir="false" afterPath="$PROJECT_DIR$/largest-product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,6 +50,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>node</find>
+      <find>webstorm</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -65,12 +66,12 @@
         <option value="$PROJECT_DIR$/__test__/shift-array.test.js" />
         <option value="$PROJECT_DIR$/shift-array.md" />
         <option value="$PROJECT_DIR$/shift-array.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/reverse-an-array.md" />
         <option value="$PROJECT_DIR$/largest-product.md" />
         <option value="$PROJECT_DIR$/../../bitmap/04-bitmap-transformer/.babelrc" />
         <option value="$PROJECT_DIR$/__test__/largest-product.test.js" />
         <option value="$PROJECT_DIR$/largest-product.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -158,12 +159,12 @@
       <workItem from="1524003629126" duration="3183000" />
       <workItem from="1524020094092" duration="2744000" />
       <workItem from="1524176823182" duration="4095000" />
-      <workItem from="1524189611172" duration="4346000" />
+      <workItem from="1524189611172" duration="4822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16071000" />
+    <option name="totallyTimeSpent" value="16547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="23" width="1173" height="777" extended-state="0" />
@@ -558,13 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1392">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.es6">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -586,6 +580,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
         </state>
       </provider>
     </entry>
