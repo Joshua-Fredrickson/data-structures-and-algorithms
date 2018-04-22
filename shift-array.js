@@ -4,7 +4,7 @@ const shiftArray = module.exports = {};
 
 shiftArray.shifting = (inputArray, inputValue) => {
   const newArray = [];
-  const targetIndexValue = Math.ceil(inputArray.length / 2);
+  const targetIndexValue = Math.floor(inputArray.length / 2);
 
   for (let i = 0; i < targetIndexValue; i++) {
     newArray.push(i);
