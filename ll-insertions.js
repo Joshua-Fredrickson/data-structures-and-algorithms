@@ -3,7 +3,7 @@
 const Nd = require('./nd');
 
 module.exports = class LinkedList {
-  constructor(name) {
+  constructor() {
     this.head = null;
   }
 
