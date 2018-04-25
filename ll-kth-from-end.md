@@ -15,6 +15,6 @@ This method returns a node from K positions from the end of the Linked List.
  - [x] Take a picture of Whiteboard
  - [x] make the ReadME
  - [x] make the .js file
- - [ ] make tests
+ - [x] make tests
  - [ ] post test
   

@@ -22,19 +22,3 @@ function kthFromEnd(k) {
   }
   return currNode;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
