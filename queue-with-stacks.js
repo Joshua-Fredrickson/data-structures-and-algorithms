@@ -2,6 +2,9 @@
 
 class Queue {
   constructor () {
+    this.pushS = new Stack();
+    this.popS = new Stack();
+  }
 
     function enQueue(value) {
     stackA = [];
