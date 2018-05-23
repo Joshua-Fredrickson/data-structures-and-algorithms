@@ -20,7 +20,7 @@ const findMaximumValue = (tree) => {
     return null;
     };
   preOrderTraversal(tree.root);
-  return max;
+  return highestCurrentValue;
 };
 
 export default findMaximumValue;
