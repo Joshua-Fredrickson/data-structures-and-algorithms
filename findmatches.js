@@ -29,4 +29,11 @@ class LinkedList {
 }
 
 
-function findMatches()
+const findMatches = (kTree, value) => {
+  let list1 = new LinkedList();
+
+  let currentNode = tree.root;
+
+  list1.insertAtHead(currentNode);
+  
+}
