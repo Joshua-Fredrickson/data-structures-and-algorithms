@@ -1,35 +1,33 @@
 'use strict';
 
-const mergeSort = (array) => {
-  let length = array.length;
-  if(length < 2)
-    return array;
-  let middleValue = Math.floor(length/2);
-  let leftSide = array.slice(0, middleValue);
-  let rightSide = array.slice(middleValue);
-
-  return _merge(mergeSort(leftSide), mergeSort(rightSide));
-}
-
-const  _merge = (leftArray, rightArray) => {
-  let solution = [];
-  let leftLength = leftArray.length;
-  let rightLength = rightArray.length;
-  let leftCounter = 0;
-  let rightCounter = 0;
-
-  while(0 < leftLength && 0 < rightLength) {
-    if(leftArray[leftCounter] < rightArray[rightCounter]) {
-      solution.push(leftArray[leftCounter]);
-      leftCounter++;
-    }
-    solution.push(rightArray[rightCounter]);
-    rightCounter++;
+const mergeSort = (arr) => {
+  if (arr.length === 1) {
+    return arr
   }
-  return solution.concat(leftArray.slice(leftCounter)).concat(rightArray.slice(rightCounter));
+
+  const middleValue = Math.floor(arr.length / 2);
+  const left = arr.slice(0, middleValue);
+  const right = arr.slice(middleValue);
+
+  return merge(mergeSort(left), mergeSort(right));
 }
 
-let test = [3,1,2,4,5];
+function merge (left, right) {
+  let result = [];
+  let indexLeft = 0;
+  let indexRight = 0;
 
-mergeSort(test);
-console.log(mergeSort(test));
+  while (indexLeft < left.length && indexRight < right.length) {
+    if (left[indexLeft] < right[indexRight]) {
+      result.push(left[indexLeft]);
+      indexLeft++;
+    } else {
+      result.push(right[indexRight]);
+      indexRight++;
+    }
+  }
+
+  return result.concat(left.slice(indexLeft)).concat(right.slice(indexRight));
+}
+
+export default mergeSort;
