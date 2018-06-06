@@ -9,3 +9,5 @@ function quickSort(arr) {
   rest.forEach( el => el < pivot ? left.push(el) : right.push(el) );
   return quickSort(left).concat(pivot).concat(quickSort(right));
 }
+
+export default quickSort;

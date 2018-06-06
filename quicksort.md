@@ -12,5 +12,6 @@ and returns an array sorted by a recursive quicksort algorithm.
  - [x] make the README.md
  - [x] make the .js file
  - [x] make the test file
- - [ ] Test Code
- - [ ] Solution Code
+ ![quicksort test image](./assets/quicksort-test.jpg)
+ - [x] Test Code
+ - [x] Solution Code
