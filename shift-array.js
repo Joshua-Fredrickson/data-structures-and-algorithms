@@ -2,19 +2,20 @@
 
 const shiftArray = module.exports = {};
 
-shiftArray.shifting = (inputArray, inputValue) => {
-  const newArray = [];
-  const targetIndexValue = Math.floor(inputArray.length / 2);
+shiftArray.shifting = (arr, newValue) => {
+  const len = arr.length;
+  let mid = Math.floor(len / 2);
+  let temp = arr[mid];
+  arr[mid] = newValue;
 
-  for (let i = 0; i < targetIndexValue; i++) {
-    newArray.push(i);
+  if(len % 2 !== 0) {
+    mid = Math.floor(len / 2) -1;
   };
 
-  newArray.push(inputValue);
-
-  for (let j = (targetIndexValue + 1); j < inputArray.length; j++) {
-    newArray.push(j)
-  };
-
-  return newArray;
+  for (let i = mid + 1; i <= len; i++) {
+    let otherTemp = arr[i];
+    arr[i] = temp;
+    temp = otherTemp;
+  }
+  return arr;
 }
